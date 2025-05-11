@@ -1,0 +1,23 @@
+@font-face {
+  font-family: kk;
+  src: url(../SharedNav/medium.ttf);
+}
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.category {
+  font-family: kk;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #b1b1b1;
+  padding: 8px 30px;
+  font-size: 15px;
+}
+
+.category li:hover {
+  color: #2874f0;
+  cursor: pointer;
+}

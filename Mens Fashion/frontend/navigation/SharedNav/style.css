@@ -1,0 +1,164 @@
+@font-face {
+  font-family: medium;
+  src: url(medium.ttf);
+}
+@font-face {
+  font-family: itallicmedium;
+  src: url(itallicmedium.ttf);
+}
+@font-face {
+  font-family: inter;
+  src: url(../../navigation/SharedNav/Inter.ttc);
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  outline: 0px;
+}
+.logo {
+  font-family: itallicmedium;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+.logo_lower {
+  font-family: itallicmedium;
+  color: #ccdaf0;
+  font-size: 13px;
+  margin-top: -6px;
+}
+.logo_lower_right {
+  font-family: itallicmedium;
+  color: #f7e108;
+  font-size: 13px;
+}
+
+.top {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  background-color: #2874f0;
+  height: 55px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px 186px 0px 186px;
+}
+.buttom {
+  padding-top: 55px;
+}
+.half {
+  display: flex;
+  flex-direction: column;
+}
+.searchengine {
+  position: relative;
+}
+.search_field {
+  border: 0px;
+  padding: 10px;
+  width: 437px;
+  outline: 0px;
+  /* margin-top: 7.5px; */
+}
+.search_field::placeholder {
+  font-size: 15px;
+}
+.search_icon {
+  position: absolute;
+  color: #2874f0;
+  font-size: 20px;
+  right: 15px;
+  top: 7px;
+}
+.login_btn {
+  background-color: #ffffff;
+  color: #2874f0;
+  font-family: medium;
+  height: 31px;
+  width: 123px;
+  /* margin-top: 11px; */
+  text-align: center;
+  padding-top: 3px;
+  cursor: pointer;
+}
+.cart_portion {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.cart_logo {
+  /* margin-top: 14px; */
+  color: #ffffff;
+  font-size: 24px;
+}
+.target_name {
+  color: #ffffff;
+  font-family: medium;
+}
+.outlet_part {
+  padding: 10px;
+  background-color: #f1f3f6;
+  display: flex;
+}
+
+.side_menu {
+  margin-right: 10px;
+  width: 288px;
+  background-color: #ffffff;
+}
+.filter {
+  border: 1px solid #f0f0f0;
+  font-family: medium;
+  font-size: 20px;
+  padding: 15px;
+}
+.side_menu ul {
+  font-family: medium;
+  font-weight: 100;
+  list-style-type: none;
+}
+.side_menu ul li {
+  padding: 14px;
+  border: 1px solid #f0f0f0;
+}
+.arrow {
+  float: right;
+  color: #9b9b9b;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.overLay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_section {
+  background-color: white;
+  height: 400px;
+  width: 400px;
+}
+.overlay_close_icon {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 100px;
+  right: 440px;
+}
+.check_price {
+  margin-top: 5px;
+}
+.check_price label {
+  margin-left: 5px;
+  font-family: inter;
+  font-size: 15px;
+}

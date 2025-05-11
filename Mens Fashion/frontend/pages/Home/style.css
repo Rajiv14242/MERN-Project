@@ -1,0 +1,76 @@
+@font-face {
+  font-family: medium;
+  src: url("../../navigation/SharedNav/medium.ttf");
+}
+@font-face {
+  font-family: Thin;
+  src: url("../../navigation//SharedNav/Inter.ttc");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main_view {
+  background-color: #ffffff;
+
+  width: 100%;
+  padding: 8px;
+  padding-right: 0px;
+}
+.heading {
+  margin-left: 10px;
+  font-family: medium;
+}
+.user_interface {
+  display: flex;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}
+.item {
+  margin-top: 10px;
+  margin-right: 12px;
+}
+.user_interface div img {
+  height: auto;
+  width: 200px;
+}
+
+.brand_name {
+  font-size: 14px;
+  font-family: medium;
+  color: #838383;
+}
+.product_name {
+  font-size: 15px;
+  font-family: Thin;
+  font-weight: 100;
+}
+
+.maths {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.maths div {
+  font-family: medium;
+}
+.mrp_amount {
+  font-size: 14px;
+  font-family: Thin;
+  font-weight: 400;
+  color: #878787;
+  text-decoration: line-through;
+}
+.disc {
+  font-size: 14px;
+  color: #57a05b;
+  font-family: Thin;
+  font-weight: 400;
+}
+
+.product_info {
+  padding: 0px 5px 0px 5px;
+}
